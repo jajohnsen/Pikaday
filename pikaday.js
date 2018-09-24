@@ -514,7 +514,7 @@
         {
             e = e || window.event;
 
-            if (self.isVisible()) {
+            if (self.isVisible() && opts.field) {
 
                 switch(e.keyCode){
                     case 13:
